@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>JB | Personal Portfolio</title>
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/styles.css">
+
+		<script src="https://use.fontawesome.com/6fd14d1dc5.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Arvo|Bitter|Copse|Cutive|Lora:700|Sanchez|Scope+One|Slabo+27px|Trocchi|Vesper+Libre" rel="stylesheet">
+
 	</head>
 	<body>
-		<nav class="sidebar">
-			Sidebar here.
-		</nav>
-		<div class="content">
+		<aside class="sidebar-left">
+
+			<a class="logo" href="#">SP</a>
+
+			<div class="sidebar-links">
+				<a class="link-blue selected" href="#"><i class="fa fa-hand-spock-o"></i>Welcome</a>
+				<a class="link-red" href="#"><i class="fa fa-heart-o"></i>Favorites</a>
+				<a class="link-yellow" href="#"><i class="fa fa-keyboard-o"></i>Projects</a>
+				<a class="link-green" href="#"><i class="fa fa-map-marker"></i>Places</a>
+			</div>
+
+		</aside>
+
+		<div class="main-content">
 			<h1>Welcome to my portfolio</h1>
 		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+
+			$(function () {
+
+				var links = $('.sidebar-links > a');
+
+				links.on('click', function () {
+
+					links.removeClass('selected');
+					$(this).addClass('selected');
+
+				})
+			});
+
+		</script>
 	</body>
 </html>
