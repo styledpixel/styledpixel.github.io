@@ -2,6 +2,10 @@
 
 A personal portfolio to provide details of, and showcase my skills.
 
+# To-Do List
+
+* Optimise **everything** *
+
 ## Front-End Built With
 
 * [Bootstrap 3](http://getbootstrap.com/)
