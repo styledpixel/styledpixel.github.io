@@ -481,10 +481,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #222;
 }
 
 h1 small,
@@ -520,7 +520,7 @@ h1,
 h2,
 h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h1 small,
@@ -550,7 +550,7 @@ h6 .small {
 
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 54px;
 }
 
 h2,
@@ -576,6 +576,11 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
+}
+
+p,
+.p {
+  font-size: 18px;
 }
 
 .page-header {

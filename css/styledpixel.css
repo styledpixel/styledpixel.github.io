@@ -1,0 +1,11 @@
+.row {
+	padding: 30px;
+}
+
+.row-default {
+	background-color: #fff;
+}
+
+.row-striped {
+	background-color: #eee;
+}
