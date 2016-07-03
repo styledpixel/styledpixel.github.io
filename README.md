@@ -19,4 +19,4 @@ A personal portfolio to provide details of, and showcase my skills.
 
 ## Acknowledgments
 
-* Hat tip to anyone [pexels](https://www.pexels.com/) for the stock images.
+* Thanks to [pexels](https://www.pexels.com/) for the stock images.
