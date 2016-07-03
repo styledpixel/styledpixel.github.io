@@ -4,7 +4,8 @@ A personal portfolio to provide details of, and showcase my skills.
 
 # To-Do List
 
-* Optimise **everything**
+* Finish coding the portfolio ¯\\\_(ツ)_/¯
+* Optimise **everything** - need to minify etc
 
 ## Front-End Built With
 
