@@ -13,7 +13,7 @@ A personal portfolio to provide details of, and showcase my skills.
 * [Bootstrap 3](http://getbootstrap.com/)
 * [Creative Tim's Navbar](http://www.creative-tim.com/product/navbar-with-icons)
 * Pixiden's [7 Stroke](http://themes-pixeden.com/font-demos/7-stroke/)
-* SASS
+* [SASS](http://sass-lang.com/)
 
 ## Authors
 
