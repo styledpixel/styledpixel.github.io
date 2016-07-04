@@ -9,7 +9,8 @@ elixir(function(mix) {
 		'dist/css/bootstrap.css',
 		'dist/css/ct-navbar.css',
 		'dist/css/pe-icon-7-stroke.css',
-		'dist/css/styledpixel.css',
+		'dist/css/pe-icon-social.css',
+		'dist/css/styledpixel.css'
 	], 'dist/css/app.css', './');
 
 	mix.scripts([
