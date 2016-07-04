@@ -4,9 +4,9 @@ A personal portfolio to provide details of, and showcase my skills.
 
 # To-Do List
 
-* Finish coding the portfolio ¯\\\_(ツ)_/¯
-* Optimise **everything** - need to minify etc
-* Switch to elixir & sass
+* [ ] Finish coding the portfolio ¯\\\_(ツ)_/¯
+* [ ] Optimise **everything** - need to minify etc
+* [x] Switch to elixir & sass
 
 ## Front-End Built With
 
