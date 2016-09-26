@@ -10,12 +10,22 @@
 	background-color: #eee;
 }
 
-.main-heading {
+.row-default .main-heading {
 	font-weight: bold;
-	color: #0D3B4D;
+	/*color: #0D3B4D;*/
 }
 
-.main-heading hr {
+.row-striped .main-heading {
+	font-weight: bold;
+	/*color: #AC3931;*/
+}
+
+.row-default .main-heading hr {
 	width: 15%;
-	border-bottom: 5px solid #0D3B4D;
+	border-bottom: 3px solid #0D3B4D;
+}
+
+.row-striped .main-heading hr {
+	width: 15%;
+	border-bottom: 3px solid #AC3931;
 }
