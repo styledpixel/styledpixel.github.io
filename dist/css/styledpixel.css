@@ -9,3 +9,13 @@
 .row-striped {
 	background-color: #eee;
 }
+
+.main-heading {
+	font-weight: bold;
+	color: #0D3B4D;
+}
+
+.main-heading hr {
+	width: 15%;
+	border-bottom: 5px solid #0D3B4D;
+}
