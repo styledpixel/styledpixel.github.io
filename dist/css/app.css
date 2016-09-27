@@ -8458,4 +8458,29 @@ td.visible-print {
 	width: 15%;
 	border-bottom: 3px solid #AC3931;
 }
+
+@media (max-width: 991px) {
+	.col-xs-12 {
+		text-align: center;
+	}
+	.user-image {
+		margin-bottom: 30px;
+	}
+	img.user-image {
+		width: 50%;
+		border-radius: 50%;
+	}
+}
+
+@media (max-height: 599px) {
+	.blurred-container {
+		height: 250px;
+	}
+}
+
+@media (min-height:600px) and (max-height: 899px) {
+	.blurred-container {
+		height: 450px;
+	}
+}
 /*# sourceMappingURL=app.css.map */
