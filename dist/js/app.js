@@ -2045,18 +2045,4 @@ $(document).scroll(function() {
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //# sourceMappingURL=app.js.map
