@@ -6,7 +6,7 @@ A personal portfolio to provide details of, and showcase my skills.
 
 * [ ] Finish coding the portfolio ¯\\\_(ツ)_/¯
 * [ ] Optimise **everything** - need to minify etc
-* [x] Switch to elixir & sass
+* [x] Switch to elixir & sass (shouldn't have added the folders to the main project, forgot to .gitignore)
 
 ## Front-End Built With
 
