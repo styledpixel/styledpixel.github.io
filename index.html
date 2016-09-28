@@ -16,6 +16,21 @@
 	    <script src="dist/js/jquery-1.10.2.js"></script>
     	<script src="dist/js/app.js"></script>
 
+    	<script src="dist/js/particles.min.js"></script>
+		<script>
+			window.onload = function() {
+			  Particles.init({
+			    selector: '#styledParticles',
+			    color: '#ffffff',
+			    connectParticles: true,
+			    sizeVariations: 3,
+			    speed: 0.1,
+			    minDistance: 75
+			  });
+			};
+
+		</script>
+
 	</head>
 
 	<body>
@@ -50,15 +65,7 @@
 										<p>Home</p>
 									</a>
 								</li>
-
-								<li>
-									<a href="#">
-										<i class="pe-7s-smile"></i>
-										<p>
-											About me
-										</p>
-									</a>
-								</li> 
+ 
 								<li>
 									<a href="#">
 										<i class="pe-7s-mail"></i>
@@ -80,6 +87,7 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 				<div class="blurred-container">
+					<canvas id="styledParticles"></canvas>
 					<div class="img-src" style="background-image: url('https://s3-eu-west-1.amazonaws.com/styledpixel/creative-apple-desk-office.jpg')"></div>
 				</div>
 			</div><!--  end navbar -->
