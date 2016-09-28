@@ -30,6 +30,19 @@
 	border-bottom: 3px solid #AC3931;
 }
 
+#styledParticles {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.blurred-container > .img-src {
+	z-index: -2;
+}
+
 @media (max-width: 991px) {
 	.col-xs-12 {
 		text-align: center;
